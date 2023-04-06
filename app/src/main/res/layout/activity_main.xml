@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBFAFA"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#3143A6"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="15dp"
+        android:textColor="#545D8C"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="@string/facebook"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_google"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/google"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="#545D8C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_editext"
+        android:hint="@string/name"
+        android:paddingStart="20dp"
+        android:textColorHint="#78909C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry,TextContrastCheck"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_editext"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColorHint="#78909C"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_editext"
+        android:hint="@string/password"
+        android:paddingStart="20dp"
+        android:textSize="25sp"
+        android:textColorHint="#78909C"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:inputType="phone"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_editext"
+        android:hint=   "@string/phone_number"
+        android:layout_margin="10dp"
+        android:paddingStart="20dp"
+        android:textColorHint="#78909C"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btn_register"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_button_two"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+
+
+
+</LinearLayout>
